@@ -1,7 +1,5 @@
 pipeline {
-    agent{
-        label 'jenkins-k8s-slave'
-    }  
+    
     stages {
         stage('Build') {
             steps {
