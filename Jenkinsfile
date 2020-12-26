@@ -1,7 +1,7 @@
 pipeline {
     tools {
     maven "apache-maven-3.6.3"
-    jdk "default"
+    jdk "myjava"
     }
     agent {
         label 'jnlp'
